@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: boot-container
-        image: bluesky3125/argo_boot:7
+        image: bluesky3125/argo_boot:9
         imagePullPolicy: Always
         ports:
         - containerPort: 7777
